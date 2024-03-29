@@ -1,5 +1,5 @@
 # BeInfi_Trade
-
+<b>BELOW IS LINK TO OPEN</b>
 <a href = "https://shorturl.at/hASX5">Benifi Trade</a>
 
 BeInfi Trade is the perfect solution for
