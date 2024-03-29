@@ -1,0 +1,257 @@
+.centerLoder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+
+.graphBox{
+  background: #ffd1b3;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 4px 1px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  /* padding: 5px; */
+}
+
+.apexcharts-toolbar{
+  display: none !important;
+}
+
+.apexcharts-gridlines-horizontal{
+  display: none !important;
+}
+
+.apexcharts-xcrosshairs{
+  display: none !important;
+}
+
+foreignObject {
+  cursor: auto !important;
+}
+
+.apexcharts-svg.apexcharts-zoomable.hovering-zoom{
+  cursor: auto !important;
+}
+
+.scroll{
+  overflow: auto;
+  height: calc(202px - 57px);
+  padding: 0px 10px;
+}
+
+.newscroll{
+  overflow: auto;
+  height: calc(256px - 57px);
+  padding: 0px 10px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #000;
+  background-color: #ffd1b3;
+  border: none;
+  height: 100%;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #000;
+}
+
+span.apexcharts-legend-text {
+  color: #818181 !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+}
+
+.apexcharts-title-text {
+  margin-top: 10px !important;
+}
+
+.rowHeading {
+  padding: 5px;
+  /* border-bottom: 1px solid #ced4da; */
+  background: #ff944d;
+}
+
+.rowHeading h2 {
+  margin: 0 !important;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+.rowHeading h2 img {
+  min-width: 40px;
+  max-height: 40px;
+  width: initial;
+  margin-right: 8px;
+}
+
+.tabIcons{
+  min-width: 20px;
+  max-height: 20px;
+  width: initial;
+  margin-right: 8px;
+}
+
+.tabHeading{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0;
+  font-size: 12px;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: transparent;
+}
+
+.nav-tabs {
+  border-bottom: transparent !important;
+}
+
+.text{
+  position: absolute;
+  top: 17px;
+  z-index: 9999;
+  right: 10px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light{
+  top: 10px !important;
+}
+
+ul.mb-3.nav.nav-tabs.nav-justified{
+  background: #ffa366;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:focus-visible {
+  outline: none;
+}
+
+li button{
+  outline: none !important;
+  border: none !important;
+}
+
+li{
+  outline: none !important;
+  border: none !important;
+}
+
+.apexcharts-canvas{
+  width: 100% !important;
+}
+
+.apexcharts-canvas svg{
+  width: 100% !important;
+}
+
+.apexcharts-canvas svg foreignObject{
+  width: 100% !important;
+}
+
+.card{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.name{
+  color: rgb(124,124,121);
+}
+
+.amount{
+  color: rgb(101,102,101);
+}
+
+.percentage{
+  color: rgb(70,186,67);
+}
+
+.details{
+  color: rgb(191,192,192);
+}
+
+.graph-container {
+  transition: transform 0.2s ease; /* Apply transition to the transform property */
+}
+
+/* Optionally, you can target specific graph elements if needed */
+.graph {
+  width: 100%; /* Ensure the graph fills its container */
+  height: auto; /* Adjust height as needed */
+}
+
+@media screen and (min-height: 1024px) {
+  .card1 {
+    width: 50%; /* Assuming col-6 takes up 50% of the width */
+  }
+}
+
+/* .box {
+  background-color: #2B2D3E;
+} */
+
+.shadow {
+  box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+}
+
+.sparkboxes strong {
+  position: relative;
+  z-index: 3;
+  top: -8px;
+  color: #fff;
+}
+
+/* .sparkboxes .box {
+  text-shadow: 0 1px 1px 1px #666;
+  box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+} */
+
+
+/* .sparkboxes .box1 {
+  background-image: linear-gradient( 135deg, #ABDCFF 20%, #4baef5 100%);
+}
+
+.sparkboxes .box2 {
+  background-image: linear-gradient( 135deg, #6ef2e0 20%, #6185da 100%);
+}
+
+.sparkboxes .box3 {
+  background-image: linear-gradient( 135deg, #FFD3A5 20%, #f794aae1 100%);
+}
+
+.sparkboxes .box4 {
+  background-image: linear-gradient( 135deg, #EE9AE5 20%, #787ffae0 100%);
+} */
+
+.welcome-text {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ border-radius: 25px;
+}
+
+
+#SvgjsG1073{
+transform: translate(80,30);
+}
+
+
+

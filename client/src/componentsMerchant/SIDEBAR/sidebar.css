@@ -1,0 +1,338 @@
+.appBar {
+  border: 1px solid #ced4da;
+  -webkit-box-shadow: none;
+  box-shadow: none !important;
+  background-color: #f9f9f9 !important;
+}
+.appBarcom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #f9f9f9 !important;
+}
+
+.navLeft {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.username {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sidebarcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.linkNAme {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #bfbfbf;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.linkNAme:hover {
+  color: #000 !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.marginleft {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.iconstyle {
+  width: 20px;
+}
+.iconcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding: 10px 20px;
+}
+
+.iconActive {
+  background: #1eaae7;
+}
+
+.activeClass {
+  color: #000 !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.openClose1 {
+  position: fixed;
+  top: 22rem;
+  z-index: 9999;
+  left: 217px;
+  transition: all 0.2s ease;
+}
+.openClose2 {
+  position: fixed;
+  top: 25rem;
+  z-index: 9999;
+  left: 85px;
+  transform: rotate(180deg);
+  transition: all 0.2s ease;
+  
+}
+
+.parentAll{
+    position: relative;
+}
+
+
+.bgcolor{
+   background-color: #f9f9f9 !important;
+}
+
+
+
+/* width */
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper::-webkit-scrollbar {
+  width: 0px !important;
+}
+/* width */
+.css-2dum1v-MuiDrawer-docked .MuiDrawer-paper::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.mainBlockSideBar{
+  width: 80%
+}
+
+/* .timezone{
+  color: #fff;
+  padding: 6px 8px !important;
+  background: #407298  !important;
+  border: none !important;
+  border-radius: 20px;
+} */
+
+.timezone {
+  color: #fff;
+  padding: 8px 16px;
+  background: #407298;
+  border: 2px solid #407298;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.timezone:hover {
+  background: #2d5d91;
+  color: #fff;
+}
+
+.submerchantDropdown{
+  background: #fff;
+  color: #000;
+  border: 1px solid #bfbfbf;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.show>.btn-primary.dropdown-toggle{
+  background: #fff;
+  color: #000;
+}
+
+.submerchantDropdown:hover{
+  background: #fff;
+  color: #000;
+}
+
+.submerchantDropdown:focus{
+  background: #fff;
+  color: #000;
+  box-shadow: none;
+}
+
+.show>.btn-primary.dropdown-toggle:focus{
+  box-shadow: none;
+}
+
+/* LIVE TEST BUTTON */
+
+.checkbox-wrapper-55 input[type="checkbox"] {
+  visibility: hidden;
+  display: none;
+}
+
+.checkbox-wrapper-55 *,
+.checkbox-wrapper-55 ::after,
+.checkbox-wrapper-55 ::before {
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper-55 .rocker {
+  display: inline-block;
+  position: relative;
+  /*
+  SIZE OF SWITCH
+  ==============
+  All sizes are in em - therefore
+  changing the font-size here
+  will change the size of the switch.
+  See .rocker-small below as example.
+  */
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #888;
+  width: 7em;
+  height: 4em;
+  overflow: hidden;
+  border-bottom: 0.5em solid #eee;
+}
+
+.checkbox-wrapper-55 .rocker-small {
+  font-size: 0.75em;
+}
+
+.checkbox-wrapper-55 .rocker::before {
+  content: "";
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #999;
+  border: 0.5em solid #eee;
+  border-bottom: 0;
+}
+
+.checkbox-wrapper-55 .switch-left,
+.checkbox-wrapper-55 .switch-right {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5em;
+  width: 3em;
+  transition: 0.2s;
+  user-select: none;
+}
+
+.checkbox-wrapper-55 .switch-left {
+  height: 2.4em;
+  width: 2.75em;
+  left: 0.85em;
+  bottom: 0.4em;
+  background-color: #ddd;
+  transform: rotate(15deg) skewX(15deg);
+}
+
+.checkbox-wrapper-55 .switch-right {
+  right: 0.5em;
+  bottom: 0;
+  background-color: #1caae8;
+  color: #fff;
+}
+
+.checkbox-wrapper-55 .switch-left::before,
+.checkbox-wrapper-55 .switch-right::before {
+  content: "";
+  position: absolute;
+  width: 0.4em;
+  height: 2.45em;
+  bottom: -0.45em;
+  background-color: #ccc;
+  transform: skewY(-65deg);
+}
+
+.checkbox-wrapper-55 .switch-left::before {
+  left: -0.4em;
+}
+
+.checkbox-wrapper-55 .switch-right::before {
+  right: -0.375em;
+  background-color: transparent;
+  transform: skewY(65deg);
+}
+
+.checkbox-wrapper-55 input:checked + .switch-left {
+  background-color: #1caae8;
+  color: #fff;
+  bottom: 0px;
+  left: 0.5em;
+  height: 2.5em;
+  width: 3em;
+  transform: rotate(0deg) skewX(0deg);
+}
+
+.checkbox-wrapper-55 input:checked + .switch-left::before {
+  background-color: transparent;
+  width: 3.0833em;
+}
+
+.checkbox-wrapper-55 input:checked + .switch-left + .switch-right {
+  background-color: #ddd;
+  color: #888;
+  bottom: 0.4em;
+  right: 0.8em;
+  height: 2.4em;
+  width: 2.75em;
+  transform: rotate(-15deg) skewX(-15deg);
+}
+
+.checkbox-wrapper-55 input:checked + .switch-left + .switch-right::before {
+  background-color: #ccc;
+}
+
+/* Keyboard Users */
+.checkbox-wrapper-55 input:focus + .switch-left {
+  color: #333;
+}
+
+.checkbox-wrapper-55 input:checked:focus + .switch-left {
+  color: #fff;
+}
+
+.checkbox-wrapper-55 input:focus + .switch-left + .switch-right {
+  color: #fff;
+}
+
+.checkbox-wrapper-55 input:checked:focus + .switch-left + .switch-right {
+  color: #333;
+}
+
+.ownerName {
+  white-space: nowrap;
+  width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.timeSelect:focus{
+  box-shadow: none !important;
+  border-color: #bfbfbf !important;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #ffffff;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: small;
+        }
+        .header {
+            text-align: center;
+            /* padding: 10px; */
+        }
+        .logo {
+            max-width: 200px;
+        }   
+        .content {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        
+        }
+        table, th, td {
+            border: 1px solid #202020;
+        }
+        th, td {
+            padding: 6px;
+            text-align: center;
+        }
+        .head{
+            background-color: #003399;
+
+            color: white;
+            height: 150px;
+            text-align: center;
+            justify-items: center;     
+        }
+        .Thanks{
+           height: 110px;
+           background-color: #e5eaf5;
+           color: rgb(13, 152, 233);
+        }
+       .paragraph{
+        font-size: small;
+        text-align: left;
+        height: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .btn1{
+         margin-left: 200px;
+         margin-top: 30px;
+         margin-bottom: 40px;
+        }
+        .btn{
+            background-color: rgb(76, 183, 233);
+            border: none;
+            color: white;
+            height: 40px;
+            width: 200px;
+            font-size: 15px;   
+        }
+        .data{
+            padding: 10px;
+            font-size: medium;
+            text-align: center;   
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./logo.svg" alt="Your Company Logo" class="logo">
+           
+        </div>
+        <div class="content">
+                
+            <div class="head">
+                
+            <img  src="./msg.png" style="height: 40px;width: 150px;"/> 
+            <div style="font-weight: bold;padding-top: 20px;">T H A N K S&nbsp; &nbsp;F O R&nbsp; &nbsp;S I G N I N G
+                &nbsp; &nbsp;U P !</div>
+           
+            </div>
+                <tbody>
+
+                    <div class="data">
+                        <p>
+                           Here, is  Your Sign Up Details 
+                        </p>
+                    </div>
+                    <table style="width:300px;margin-left: 80px; margin-bottom: 40px;margin-top: 20px;">
+                        <thead >
+                           
+                        </thead>
+                        <tr>
+                            <td style="width: 200px;padding: 8px;"><b>Email</b></td>
+                            <td style="width: 400px;"><b><%= email  %></b></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 200px;padding: 8px;"><b>Password</b></td>
+                            <td style="width: 400px;"><b><%= password %></b></td>
+                        </tr>
+                    </table>
+            
+                  <div style="text-align: center;font-size: larger;color: rgb(76, 183, 233) ;"><h2>THANKS</h2></div>
+                </tbody>
+                <div style="color:white;text-align: center; background-color: #003399; height: 70px; padding-top: 5px;">
+                    <p style="font-size: small;color: rgb(218,164,189);;"><a>support@ubankconnect.com</a></p>
+                    <p><span style="font-size: 14px;">Copyrights &copy; U Bank Connect. All Rights Reserved</span></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

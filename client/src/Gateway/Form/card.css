@@ -1,0 +1,27 @@
+.PaymentType {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    color: #0e314c;
+    width: 100%;
+    -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
+    box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+.PaymentType span {
+    margin-left: 5px;
+}
+
+.PaymentType img {
+    margin-right: 6px;
+    height: 35px;
+    width: 45px;
+    position: relative;
+}

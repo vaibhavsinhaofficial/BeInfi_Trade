@@ -1,0 +1,121 @@
+.main1 {
+    background:  linear-gradient(to bottom, #116cbb, rgba(255, 255, 255, 255));
+  }
+.theme-card {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 30px;
+  background-color:white;
+}
+
+.fsizep {
+  font-size: 0.5rem;
+}
+
+.theme-text {
+  color: #116dbb !important;
+}
+
+.pill {
+  text-align: center;
+  border-radius: 24px;
+  padding: 0.5rem;
+  background-color: #c5e7ff;
+  border-style: none;
+  border-width: 1px;
+}
+
+.circle {
+  text-align: center;
+  text-justify: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background-color: #c5e7ff;
+  border-style: none;
+  width: 3rem;
+  height: 3rem;
+  padding-top: 0.5rem;
+}
+
+.orderSize .remindText {
+  font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+  .card-body {
+    height: fit-content;
+    width: 90%;
+  }
+  .orderSize {
+    font-size: 1.5rem;
+  }
+  .remindText {
+    font-size: 15px;
+  }
+  .qrimg {
+    height: 300px;
+  }
+  .upiText {
+    font-size: 15px;
+  }
+  .qrtext {
+    font-size: 20px;
+  }
+  .nameinput {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .iconImg {
+    height: 45px;
+  }
+  .labelText {
+    font-size: 20px;
+  }
+  .paymentReminder {
+    font-size: 1.5rem;
+  }
+  .submitButton {
+    border-radius: 50px;
+    font-size: 20px;
+    width: 130px;
+  }
+  .clock {
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  #languageSelect {
+    color: #116dbb;
+    border: 2px solid #116dbb;
+    border-radius: 5px;
+  }
+  .upi-input {
+    width: 50%;
+    margin: auto;
+    border-radius: 12px;
+    border: 1px solid #bfbfbf;
+    color: #bfbfbf;
+  }
+  .upi-input:focus-visible {
+    outline: none;
+  }
+}
+
+.submitButton {
+  border-radius: 50px;
+  font-size: 20px;
+  width: 130px;
+}
+
+.lang-button {
+  color: #116dbb;
+  border-radius: 20px;
+  padding: 8px;
+  border-color: #116dbb;
+  float: inline-end;
+}
+.submitbtn {
+  border: none;
+}

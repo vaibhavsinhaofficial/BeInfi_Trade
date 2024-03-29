@@ -1,0 +1,157 @@
+.currencyBox {
+    border-radius: 20px;
+    width: 100%;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+}
+
+.currencyHeading h6 {
+    margin: 0 !important;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 2px solid #f2f2f2;
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+}
+
+.currencyHeading h6 img {
+    min-width: 60px;
+    max-height: 60px;
+    width: initial;
+}
+
+.rowText {
+    font-weight: 900;
+    color: #ff6600;
+}
+
+.upiheading h2 {
+    margin: 0 !important;
+    vertical-align: middle;
+    display: flex;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+}
+
+.upiheading h2 img {
+    min-width: 40px;
+    max-height: 40px;
+    width: initial;
+    margin-right: 8px;
+}
+
+.upiSelect{
+    width: 110px;
+    position: absolute;
+}
+
+.upiSelect:focus{
+    border-color: #bfbfbf !important;
+    box-shadow: none !important;
+}
+
+.upiInput{
+    width: 60px;
+    margin-left: 120px;
+    height: 37px;
+}
+
+.upiInput:focus{
+    border-color: #bfbfbf !important;
+    box-shadow: none !important;
+}
+
+.inrBack{
+    background: #ff6600;
+    color: #fff;
+    float: right;
+}
+
+.inrBack:hover{
+    color: #fff;
+}
+
+.upiSave{
+    background: #ff6600;
+    color: #fff;
+}
+
+.upiSave:hover{
+    color: #fff !important;
+}
+
+.upiSave:focus{
+    box-shadow: none !important;
+}
+
+.cardSave{
+    background: #ff6600;
+    color: #fff;
+    margin-left: auto;
+    display: flex;
+}
+
+.cardSave:hover{
+    color: #fff !important;
+}
+
+.cardSave:focus{
+    box-shadow: none !important;
+}
+
+.optionBtn{
+    color: #ff6600;
+    font-weight: 800;
+}
+
+.optionBtn:focus{
+    box-shadow: none !important;
+}
+
+.imagenew {
+    max-height: 25px !important;
+    margin-top: 5px !important;
+}
+
+.roundimage {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.accordion-item .accordion-button:focus {
+    box-shadow: none;
+}
+
+.nonSelect{
+    width: 90px;
+    text-align: center;
+}
+
+.nonSelect:focus{
+    border-color: #bfbfbf !important;
+    box-shadow: none !important;
+}
+
+.bankcodeSelect:focus{
+    border-color: #bfbfbf !important;
+    box-shadow: none !important;
+}
+
+.currencySelect:focus{
+    border-color: #bfbfbf !important;
+    box-shadow: none !important;
+}
+
+.merchantTh{
+    font-weight: 800 !important;
+    background-color: #456b7b !important;
+    color: #fff;
+}
